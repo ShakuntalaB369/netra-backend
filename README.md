@@ -32,7 +32,7 @@ The current repository contains a single end-to-end notebook: `01_Data_Explorati
 ## The VISION: What NETRA Does
 
 NETRA is a cross-modal satellite image retrieval system. Given a query image from **any sensor**, it retrieves the most geographically similar images from a **different sensor modality** — in under one second.
-**A pipelime rather than a feature.**
+**A pipeline rather than a feature.**
 
 ```
 Cloudy optical image (LISS-IV / Sentinel-2)
