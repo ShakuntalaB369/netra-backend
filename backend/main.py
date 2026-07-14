@@ -57,7 +57,7 @@ app.add_middleware(
 app.mount("/static", StaticFiles(directory=str(BASE_DIR / "static")), name="static")
 
 # Backend URL used to return absolute tile URLs
-BACKEND_BASE = "http://localhost:8000"
+BACKEND_BASE = "import.meta.env.VITE_API_URL"
 
 # --------------------------------------------------------------------------- #
 # Model Loading (graceful degradation)
